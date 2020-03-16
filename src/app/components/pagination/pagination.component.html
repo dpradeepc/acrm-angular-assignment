@@ -1,0 +1,6 @@
+<div class="pagination">
+  <a (click)="gotoPreviousPage()" href="#">&laquo;</a>
+  <a *ngFor="let pageNum of allPages; let i=index" (click)="onPageChange(pageNum);"
+    [ngClass]="{'active': currentPage === pageNum}" href="#">{{i+1}}</a>
+  <a (click)="gotoNextPage()" href="#">&raquo;</a>
+</div>

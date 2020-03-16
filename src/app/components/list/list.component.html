@@ -1,0 +1,4 @@
+<app-listing-panel *ngFor="let mockUserData of mockData" [mockUserData]="mockUserData"></app-listing-panel>
+
+<app-pagination [numTotalRecords]="numTotalRecords" [numRecordsPerPage]="numRecordsPerPage"
+  (pageChange)="onPageChange($event)"></app-pagination>
