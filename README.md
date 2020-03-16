@@ -1,7 +1,8 @@
 # Notes
-1) I have not implemented the part which says combine the results, I am not able to see the instructions as I am taken to the second page, this should be very simple to implement based on the usecase we are solving.
-2) There are lot of minor enhancements we can do, the most obvious is the styling which includes positioning, alignment and fixed containers for listing and pagination, there should be a loader while fetching records.
-3) I have not used any component library so it should be pretty straightforward to run the code, just npm install it.
+1) There are lot of minor enhancements we can do, the most obvious is the styling which includes positioning, alignment and fixed containers for listing and pagination, there should be a loader while fetching records.
+2) I have not used any component library so it should be pretty straightforward to run the code, just npm install it.
+3) I have not implemeted the third point (adding the post this is a pretty simple task with reactive forms), I will add this as soon as i get free
+4) for code formatting I have used prettier.
 
 # Assignment
 
